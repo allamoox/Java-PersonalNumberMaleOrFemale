@@ -1,0 +1,26 @@
+
+import java.util.*;
+            
+
+public class NewClass {
+
+public static void main (String[]args){
+    
+    
+Scanner userInput =  new Scanner(System.in);
+    System.out.println("Please Enter your personal number:");
+    int age = userInput.nextInt();
+    String M = "You are Male";
+    String F = "You are Female";
+    
+    if ( age % 2 == 0){
+    System.out.println(M);
+    }else {
+    System.out.println(F);
+    }
+    
+    }
+
+}
+
+    
